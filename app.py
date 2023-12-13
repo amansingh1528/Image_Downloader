@@ -67,7 +67,7 @@ def main():
                 ImageURL(url=url)
 
             # Define the save path
-            save_path = '/Users/mac/Downloads/Model'  # Update this path
+            save_path = 'Path/for/downloaded/images'  # Update this path
 
             # Start the image downloader
             downloader = ImageDownloader(urls=image_urls, save_path=save_path)
